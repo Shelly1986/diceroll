@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+
+body {
+  background: rgb(77,195,207);
+  font-family: Orbitron;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main div{
+  margin-inline: 50px;
+
+}
+
+.dice-roll img {
+  width: 200px;
+  height: 200px;
+}
+
+.dice-roll h2{
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  border: solid 4px white;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: #132488;
+  color: white;
+}
+
+.button:active {
+  background-color: #eef3ee;
+  color: blue;
+  transform: translateY(4px);
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+}
